@@ -1,0 +1,33 @@
+body {
+    background-color: #B07FB0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+.container{
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+
+}
+.titulo{
+    border-radius: 10px;
+    background: #5DC1B9;
+    width: 300px;
+    padding: 5px;
+    margin: 50px;
+}
+
+.form-crear-categoria{
+    background-color: #5DC1B9;
+    text-align: end;
+    padding: 50px; 
+    border-radius: 15px;
+}
+.form-crear-categoria label {
+    font-size: 20px;
+}
