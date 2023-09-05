@@ -14,15 +14,22 @@
 <body>
     <div class="container">
          <div class="titulo">
-         <h1>Nueva Categoria</h1>
+         <h1>Nueva Tarea</h1>
          </div>
-        <form class="form-crear-categoria">
+        <form class="form-crear-tarea">
             <label for="nombre">Nombre: </label>
             <input type="text" id="nombre" name="nombre"><br>
             <br>
-            <label for="descripcion">Descripcion: </label>
-            <input type="text" id="descripcion" name="descripcion"><br>
+            <label for="fecha_creacion">Fecha creacion: </label>
+            <input type="date" id="fecha_creacion" name="fecha_creacion"><br>
             <br>
+            <label for="fecha_limite">Fecha limite: </label>
+            <input type="date" id="fecha_limite" name="fecha_limite"><br>
+            <br>
+            <label for="completada">Completada: </label>
+            <input type="checkbox" id="completada" name="completada"><br>
+            <br>
+
             <input type="submit" value="Agregar">
                </form>
     </div>

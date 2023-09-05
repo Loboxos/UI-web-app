@@ -31,3 +31,12 @@ body {
 .form-crear-categoria label {
     font-size: 20px;
 }
+.form-crear-tarea{
+    background-color: #5DC1B9;
+    text-align: initial;
+    padding: 50px; 
+    border-radius: 15px;
+}
+.form-crear-tarea label {
+    font-size: 20px;
+}
