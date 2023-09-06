@@ -2,7 +2,6 @@ body {
     background-color: #B07FB0;
     color: white;
     font-family: 'Roboto', sans-serif;
-
     text-align: center;
     margin: 0; 
     padding: 0;
@@ -36,12 +35,20 @@ body {
     border-radius: 15px;
 }
 
-.form-crear-item{
-    background-color: #5DC1B9;
-    text-align: initial;
-    padding: 50px; 
-    border-radius: 15px;
-}
 form {
     font-size: 20px;
+}
+
+.lista-tareas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarea {
+    background-color: #5DC1B9;
+    text-align: initial;
+    padding: 20px;
+    border-radius: 15px;
 }
